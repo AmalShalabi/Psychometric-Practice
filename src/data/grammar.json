@@ -1,0 +1,413 @@
+[
+  {
+    "id": 1,
+    "title": "الأزمنة الأساسية - Present Simple",
+    "description": "تعلم كيفية استخدام المضارع البسيط في اللغة الإنجليزية",
+    "content": [
+      {
+        "heading": "ما هو المضارع البسيط؟",
+        "explanation": "المضارع البسيط يستخدم للتعبير عن العادات، الحقائق العامة، والأنشطة المتكررة.",
+        "rules": [
+          "يستخدم مع الفعل الأساسي (base form) للموضوعات المفردة",
+          "يضاف -s أو -es للموضوعات المفردة في الجملة الإيجابية",
+          "يستخدم do/does في الجمل المنفية والاستفهامية"
+        ],
+        "examples": [
+          {
+            "english": "I play football every day.",
+            "arabic": "ألعب كرة القدم كل يوم."
+          },
+          {
+            "english": "She works in a hospital.",
+            "arabic": "هي تعمل في مستشفى."
+          },
+          {
+            "english": "The sun rises in the east.",
+            "arabic": "الشمس تشرق من الشرق."
+          }
+        ]
+      },
+      {
+        "heading": "قواعد إضافة -s و -es",
+        "explanation": "عندما يكون الموضوع مفرداً (he, she, it)، نضيف -s أو -es للفعل.",
+        "rules": [
+          "أضف -s لمعظم الأفعال: play → plays",
+          "أضف -es للأفعال التي تنتهي بـ s, sh, ch, x, z: watch → watches",
+          "أضف -ies للأفعال التي تنتهي بـ y قبلها حرف ساكن: study → studies"
+        ],
+        "examples": [
+          {
+            "english": "He watches TV every evening.",
+            "arabic": "هو يشاهد التلفزيون كل مساء."
+          },
+          {
+            "english": "She studies English at university.",
+            "arabic": "هي تدرس الإنجليزية في الجامعة."
+          }
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "question": "أي من الجمل التالية صحيحة؟",
+        "options": [
+          "I plays football every day.",
+          "I play football every day.",
+          "I am play football every day.",
+          "I playing football every day."
+        ],
+        "correctAnswer": "I play football every day."
+      },
+      {
+        "question": "كيف نكتب الفعل 'watch' مع 'she'؟",
+        "options": [
+          "She watch TV.",
+          "She watches TV.",
+          "She watching TV.",
+          "She is watch TV."
+        ],
+        "correctAnswer": "She watches TV."
+      },
+      {
+        "question": "أي من الجمل التالية تعبر عن عادة؟",
+        "options": [
+          "I am reading a book now.",
+          "I read books every week.",
+          "I will read a book tomorrow.",
+          "I have read this book."
+        ],
+        "correctAnswer": "I read books every week."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "الأزمنة الأساسية - Past Simple",
+    "description": "تعلم كيفية استخدام الماضي البسيط للتعبير عن الأحداث الماضية",
+    "content": [
+      {
+        "heading": "ما هو الماضي البسيط؟",
+        "explanation": "الماضي البسيط يستخدم للتعبير عن الأحداث التي حدثت وانتهت في الماضي.",
+        "rules": [
+          "يستخدم مع الفعل الماضي (past form) لجميع الموضوعات",
+          "الأفعال المنتظمة تنتهي بـ -ed",
+          "الأفعال الشاذة لها أشكال ماضية خاصة"
+        ],
+        "examples": [
+          {
+            "english": "I played football yesterday.",
+            "arabic": "لعبت كرة القدم أمس."
+          },
+          {
+            "english": "She went to school last week.",
+            "arabic": "ذهبت إلى المدرسة الأسبوع الماضي."
+          },
+          {
+            "english": "We studied English together.",
+            "arabic": "درسنا الإنجليزية معاً."
+          }
+        ]
+      },
+      {
+        "heading": "الأفعال الشاذة الشائعة",
+        "explanation": "بعض الأفعال لها أشكال ماضية خاصة ولا تتبع قاعدة -ed.",
+        "rules": [
+          "go → went",
+          "see → saw",
+          "come → came",
+          "do → did",
+          "have → had"
+        ],
+        "examples": [
+          {
+            "english": "I went to the cinema last night.",
+            "arabic": "ذهبت إلى السينما الليلة الماضية."
+          },
+          {
+            "english": "She saw a beautiful sunset.",
+            "arabic": "رأت غروب شمس جميل."
+          }
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "question": "كيف نكتب 'go' في الماضي؟",
+        "options": [
+          "goed",
+          "went",
+          "gone",
+          "going"
+        ],
+        "correctAnswer": "went"
+      },
+      {
+        "question": "أي من الجمل التالية صحيحة؟",
+        "options": [
+          "I go to school yesterday.",
+          "I went to school yesterday.",
+          "I am going to school yesterday.",
+          "I will go to school yesterday."
+        ],
+        "correctAnswer": "I went to school yesterday."
+      },
+      {
+        "question": "كيف نكتب 'study' في الماضي؟",
+        "options": [
+          "studied",
+          "studyed",
+          "studing",
+          "studied"
+        ],
+        "correctAnswer": "studied"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "الأزمنة الأساسية - Future Simple",
+    "description": "تعلم كيفية التعبير عن المستقبل باستخدام will و going to",
+    "content": [
+      {
+        "heading": "استخدام will للمستقبل",
+        "explanation": "will يستخدم للتعبير عن القرارات التلقائية، التوقعات، والوعود.",
+        "rules": [
+          "will + الفعل الأساسي",
+          "will not = won't",
+          "يستخدم في الجمل الشرطية والوعود"
+        ],
+        "examples": [
+          {
+            "english": "I will help you tomorrow.",
+            "arabic": "سأساعدك غداً."
+          },
+          {
+            "english": "She will be a doctor one day.",
+            "arabic": "ستصبح طبيبة يوماً ما."
+          },
+          {
+            "english": "It will rain tomorrow.",
+            "arabic": "ستمطر غداً."
+          }
+        ]
+      },
+      {
+        "heading": "استخدام going to للمستقبل",
+        "explanation": "going to يستخدم للتعبير عن الخطط المحددة مسبقاً والتوقعات القائمة على أدلة.",
+        "rules": [
+          "am/is/are + going to + الفعل الأساسي",
+          "يستخدم للخطط والنية",
+          "يستخدم للتوقعات القائمة على أدلة واضحة"
+        ],
+        "examples": [
+          {
+            "english": "I am going to study medicine.",
+            "arabic": "سأدرس الطب."
+          },
+          {
+            "english": "Look at those clouds! It's going to rain.",
+            "arabic": "انظر إلى تلك الغيوم! ستمطر."
+          }
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "question": "أي من الجمل التالية تستخدم will بشكل صحيح؟",
+        "options": [
+          "I will going to school tomorrow.",
+          "I will go to school tomorrow.",
+          "I will went to school tomorrow.",
+          "I will goes to school tomorrow."
+        ],
+        "correctAnswer": "I will go to school tomorrow."
+      },
+      {
+        "question": "كيف نكتب 'going to' مع 'she'؟",
+        "options": [
+          "She is going to study.",
+          "She are going to study.",
+          "She am going to study.",
+          "She going to study."
+        ],
+        "correctAnswer": "She is going to study."
+      },
+      {
+        "question": "متى نستخدم going to بدلاً من will؟",
+        "options": [
+          "للوعود",
+          "للخطط المحددة مسبقاً",
+          "للقرارات التلقائية",
+          "للجمل الشرطية"
+        ],
+        "correctAnswer": "للخطط المحددة مسبقاً"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "الصفات - Adjectives",
+    "description": "تعلم كيفية استخدام الصفات لوصف الأسماء",
+    "content": [
+      {
+        "heading": "ما هي الصفات؟",
+        "explanation": "الصفات هي كلمات تصف الأسماء وتخبرنا عن صفاتها أو حالتها.",
+        "rules": [
+          "تأتي قبل الاسم في الجملة",
+          "لا تتغير حسب العدد أو الجنس",
+          "يمكن أن تأتي بعد أفعال معينة مثل be, look, feel"
+        ],
+        "examples": [
+          {
+            "english": "She is a beautiful girl.",
+            "arabic": "هي فتاة جميلة."
+          },
+          {
+            "english": "The book is interesting.",
+            "arabic": "الكتاب مثير للاهتمام."
+          },
+          {
+            "english": "I feel happy today.",
+            "arabic": "أشعر بالسعادة اليوم."
+          }
+        ]
+      },
+      {
+        "heading": "درجات المقارنة",
+        "explanation": "يمكن مقارنة الصفات بثلاث درجات: الإيجابية، المقارنة، والتفضيل.",
+        "rules": [
+          "الصفات القصيرة: beautiful → more beautiful → most beautiful",
+          "الصفات القصيرة: big → bigger → biggest",
+          "الصفات الشاذة: good → better → best"
+        ],
+        "examples": [
+          {
+            "english": "This book is more interesting than that one.",
+            "arabic": "هذا الكتاب أكثر إثارة للاهتمام من ذاك."
+          },
+          {
+            "english": "She is the most beautiful girl in the class.",
+            "arabic": "هي أجمل فتاة في الفصل."
+          }
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "question": "أين تأتي الصفة في الجملة؟",
+        "options": [
+          "بعد الاسم دائماً",
+          "قبل الاسم دائماً",
+          "في نهاية الجملة",
+          "في بداية الجملة"
+        ],
+        "correctAnswer": "قبل الاسم دائماً"
+      },
+      {
+        "question": "كيف نكتب 'beautiful' في المقارنة؟",
+        "options": [
+          "beautifuller",
+          "more beautiful",
+          "beautifuler",
+          "most beautiful"
+        ],
+        "correctAnswer": "more beautiful"
+      },
+      {
+        "question": "أي من الجمل التالية صحيحة؟",
+        "options": [
+          "She is a girl beautiful.",
+          "She is beautiful a girl.",
+          "She is a beautiful girl.",
+          "She beautiful is a girl."
+        ],
+        "correctAnswer": "She is a beautiful girl."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "الأدوات - Articles",
+    "description": "تعلم كيفية استخدام a, an, the بشكل صحيح",
+    "content": [
+      {
+        "heading": "الأدوات غير المحددة (a, an)",
+        "explanation": "a و an تستخدمان مع الأسماء المفردة غير المحددة.",
+        "rules": [
+          "a تستخدم قبل الكلمات التي تبدأ بحرف ساكن",
+          "an تستخدم قبل الكلمات التي تبدأ بحرف متحرك",
+          "لا تستخدم مع الأسماء الجمع أو غير المعدودة"
+        ],
+        "examples": [
+          {
+            "english": "I have a book.",
+            "arabic": "لدي كتاب."
+          },
+          {
+            "english": "She is an engineer.",
+            "arabic": "هي مهندسة."
+          },
+          {
+            "english": "There is a university in our city.",
+            "arabic": "هناك جامعة في مدينتنا."
+          }
+        ]
+      },
+      {
+        "heading": "الأداة المحددة (the)",
+        "explanation": "the تستخدم مع الأسماء المحددة أو المعروفة مسبقاً.",
+        "rules": [
+          "تستخدم مع الأسماء المحددة",
+          "تستخدم مع الأسماء الفريدة",
+          "تستخدم مع الأسماء المذكورة سابقاً"
+        ],
+        "examples": [
+          {
+            "english": "The book on the table is mine.",
+            "arabic": "الكتاب على الطاولة ملكي."
+          },
+          {
+            "english": "The sun is shining today.",
+            "arabic": "الشمس تشرق اليوم."
+          },
+          {
+            "english": "I saw a cat. The cat was black.",
+            "arabic": "رأيت قطة. القطة كانت سوداء."
+          }
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "question": "أي أداة نستخدم مع 'university'؟",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "لا شيء"
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "question": "أي أداة نستخدم مع 'hour'؟",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "لا شيء"
+        ],
+        "correctAnswer": "an"
+      },
+      {
+        "question": "متى نستخدم 'the'؟",
+        "options": [
+          "مع الأسماء غير المحددة",
+          "مع الأسماء المحددة",
+          "مع الأسماء الجمع فقط",
+          "مع الأسماء غير المعدودة فقط"
+        ],
+        "correctAnswer": "مع الأسماء المحددة"
+      }
+    ]
+  }
+]

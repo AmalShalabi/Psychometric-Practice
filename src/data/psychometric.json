@@ -1,0 +1,337 @@
+[
+  {
+    "id": 1,
+    "title": "اختبار المفردات الأساسية",
+    "description": "اختبار شامل لمفردات اللغة الإنجليزية الأساسية",
+    "level": "مبتدئ",
+    "timeLimit": 15,
+    "questions": [
+      {
+        "question": "Choose the word that best completes the sentence: The weather is very _____ today.",
+        "options": [
+          "beautiful",
+          "beauty",
+          "beautifully",
+          "beautify"
+        ],
+        "correctAnswer": "beautiful",
+        "section": "Vocabulary"
+      },
+      {
+        "question": "What is the opposite of 'happy'?",
+        "options": [
+          "sad",
+          "angry",
+          "tired",
+          "excited"
+        ],
+        "correctAnswer": "sad",
+        "section": "Vocabulary"
+      },
+      {
+        "question": "Which word means 'very big'?",
+        "options": [
+          "small",
+          "huge",
+          "tiny",
+          "little"
+        ],
+        "correctAnswer": "huge",
+        "section": "Vocabulary"
+      },
+      {
+        "question": "What is the past tense of 'go'?",
+        "options": [
+          "goed",
+          "went",
+          "gone",
+          "going"
+        ],
+        "correctAnswer": "went",
+        "section": "Grammar"
+      },
+      {
+        "question": "Choose the correct article: I have _____ apple.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "an",
+        "section": "Grammar"
+      },
+      {
+        "question": "Which sentence is correct?",
+        "options": [
+          "She is go to school.",
+          "She goes to school.",
+          "She is goes to school.",
+          "She going to school."
+        ],
+        "correctAnswer": "She goes to school.",
+        "section": "Grammar"
+      },
+      {
+        "question": "What does 'quickly' mean?",
+        "options": [
+          "in a slow way",
+          "in a fast way",
+          "in a careful way",
+          "in a quiet way"
+        ],
+        "correctAnswer": "in a fast way",
+        "section": "Vocabulary"
+      },
+      {
+        "question": "Choose the correct form: The book _____ on the table.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "correctAnswer": "is",
+        "section": "Grammar"
+      },
+      {
+        "question": "What is the plural of 'child'?",
+        "options": [
+          "childs",
+          "children",
+          "childes",
+          "childrens"
+        ],
+        "correctAnswer": "children",
+        "section": "Grammar"
+      },
+      {
+        "question": "Which word means 'to look at something carefully'?",
+        "options": [
+          "see",
+          "watch",
+          "look",
+          "examine"
+        ],
+        "correctAnswer": "examine",
+        "section": "Vocabulary"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "اختبار القراءة والفهم",
+    "description": "اختبار مهارات القراءة والفهم مع نصوص متنوعة",
+    "level": "متوسط",
+    "timeLimit": 20,
+    "questions": [
+      {
+        "question": "Read the passage and answer: 'The library is a quiet place where people go to read books and study. It has many shelves filled with books on different subjects. Students often visit the library to do their homework and research.' What is the main purpose of a library?",
+        "options": [
+          "To buy books",
+          "To read books and study",
+          "To meet friends",
+          "To play games"
+        ],
+        "correctAnswer": "To read books and study",
+        "section": "Reading Comprehension"
+      },
+      {
+        "question": "Based on the same passage, who often visits the library?",
+        "options": [
+          "Teachers only",
+          "Students only",
+          "Students often",
+          "Nobody visits"
+        ],
+        "correctAnswer": "Students often",
+        "section": "Reading Comprehension"
+      },
+      {
+        "question": "Read: 'Climate change is affecting our planet in many ways. Rising temperatures are causing ice to melt, sea levels to rise, and weather patterns to change. We need to take action to protect our environment.' What is causing ice to melt?",
+        "options": [
+          "Rising sea levels",
+          "Rising temperatures",
+          "Changing weather patterns",
+          "Protecting the environment"
+        ],
+        "correctAnswer": "Rising temperatures",
+        "section": "Reading Comprehension"
+      },
+      {
+        "question": "What does the passage suggest we need to do?",
+        "options": [
+          "Nothing",
+          "Take action to protect our environment",
+          "Wait for the government",
+          "Move to another planet"
+        ],
+        "correctAnswer": "Take action to protect our environment",
+        "section": "Reading Comprehension"
+      },
+      {
+        "question": "Read: 'Technology has changed the way we communicate. Instead of writing letters, we now send emails and text messages. Social media allows us to stay connected with friends and family around the world.' What has technology changed?",
+        "options": [
+          "The way we eat",
+          "The way we sleep",
+          "The way we communicate",
+          "The way we exercise"
+        ],
+        "correctAnswer": "The way we communicate",
+        "section": "Reading Comprehension"
+      },
+      {
+        "question": "What allows us to stay connected with friends and family around the world?",
+        "options": [
+          "Letters",
+          "Emails only",
+          "Social media",
+          "Text messages only"
+        ],
+        "correctAnswer": "Social media",
+        "section": "Reading Comprehension"
+      },
+      {
+        "question": "Read: 'Education is important for everyone. It helps us learn new skills, understand the world around us, and make better decisions. A good education opens many doors and opportunities in life.' Why is education important?",
+        "options": [
+          "It helps us learn new skills",
+          "It helps us understand the world",
+          "It helps us make better decisions",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above",
+        "section": "Reading Comprehension"
+      },
+      {
+        "question": "What does a good education do?",
+        "options": [
+          "Closes doors",
+          "Opens many doors and opportunities",
+          "Makes life harder",
+          "Limits our choices"
+        ],
+        "correctAnswer": "Opens many doors and opportunities",
+        "section": "Reading Comprehension"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "اختبار القواعد المتقدمة",
+    "description": "اختبار شامل لقواعد اللغة الإنجليزية المتقدمة",
+    "level": "متقدم",
+    "timeLimit": 25,
+    "questions": [
+      {
+        "question": "Choose the correct conditional: If I _____ you, I would study harder.",
+        "options": [
+          "am",
+          "was",
+          "were",
+          "be"
+        ],
+        "correctAnswer": "were",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Which sentence uses the passive voice correctly?",
+        "options": [
+          "The book was written by the author.",
+          "The author was written the book.",
+          "The book written by the author.",
+          "The author written the book."
+        ],
+        "correctAnswer": "The book was written by the author.",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Choose the correct reported speech: 'I will come tomorrow,' he said.",
+        "options": [
+          "He said he will come tomorrow.",
+          "He said he would come tomorrow.",
+          "He said he comes tomorrow.",
+          "He said he came tomorrow."
+        ],
+        "correctAnswer": "He said he would come tomorrow.",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Which sentence uses the present perfect correctly?",
+        "options": [
+          "I have seen that movie yesterday.",
+          "I saw that movie yesterday.",
+          "I have seen that movie before.",
+          "I see that movie yesterday."
+        ],
+        "correctAnswer": "I have seen that movie before.",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Choose the correct relative pronoun: The man _____ car was stolen called the police.",
+        "options": [
+          "who",
+          "which",
+          "whose",
+          "whom"
+        ],
+        "correctAnswer": "whose",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Which sentence uses the subjunctive mood correctly?",
+        "options": [
+          "I suggest that he goes to the doctor.",
+          "I suggest that he go to the doctor.",
+          "I suggest that he went to the doctor.",
+          "I suggest that he going to the doctor."
+        ],
+        "correctAnswer": "I suggest that he go to the doctor.",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Choose the correct gerund: _____ English is not easy.",
+        "options": [
+          "Learn",
+          "Learning",
+          "To learn",
+          "Learned"
+        ],
+        "correctAnswer": "Learning",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Which sentence uses the future perfect correctly?",
+        "options": [
+          "I will finish my homework by 6 PM.",
+          "I will have finished my homework by 6 PM.",
+          "I finish my homework by 6 PM.",
+          "I finished my homework by 6 PM."
+        ],
+        "correctAnswer": "I will have finished my homework by 6 PM.",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Choose the correct modal verb: You _____ wear a seatbelt when driving.",
+        "options": [
+          "can",
+          "may",
+          "must",
+          "might"
+        ],
+        "correctAnswer": "must",
+        "section": "Advanced Grammar"
+      },
+      {
+        "question": "Which sentence uses inversion correctly?",
+        "options": [
+          "Never I have seen such a beautiful sunset.",
+          "Never have I seen such a beautiful sunset.",
+          "Never I seen such a beautiful sunset.",
+          "Never I see such a beautiful sunset."
+        ],
+        "correctAnswer": "Never have I seen such a beautiful sunset.",
+        "section": "Advanced Grammar"
+      }
+    ]
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "title": "My First Day at School",
+    "level": "مبتدئ",
+    "timeLimit": 5,
+    "quizTimeLimit": 3,
+    "wordCount": 150,
+    "content": "My name is Sarah and I am seven years old. Today is my first day at school. I feel excited but also a little nervous. My mother walks with me to the school gate. She gives me a big hug and tells me to be brave. I wave goodbye to her and walk into the school building. The school is very big and there are many children everywhere. I see a teacher standing near the door. She smiles at me and asks for my name. I tell her my name and she takes me to my classroom. In the classroom, I meet my new classmates. They all look friendly and happy. The teacher introduces herself as Miss Johnson. She tells us that we will learn many new things together. I sit at my desk and look around. The classroom has colorful pictures on the walls and many books on the shelves. I think I will like this place very much.",
+    "questions": [
+      {
+        "question": "How old is Sarah?",
+        "options": [
+          "Six years old",
+          "Seven years old",
+          "Eight years old",
+          "Nine years old"
+        ],
+        "correctAnswer": "Seven years old"
+      },
+      {
+        "question": "How does Sarah feel on her first day?",
+        "options": [
+          "Only excited",
+          "Only nervous",
+          "Excited and nervous",
+          "Sad and worried"
+        ],
+        "correctAnswer": "Excited and nervous"
+      },
+      {
+        "question": "Who takes Sarah to her classroom?",
+        "options": [
+          "Her mother",
+          "Her father",
+          "A teacher",
+          "Another student"
+        ],
+        "correctAnswer": "A teacher"
+      },
+      {
+        "question": "What is the teacher's name?",
+        "options": [
+          "Miss Smith",
+          "Miss Johnson",
+          "Miss Brown",
+          "Miss Davis"
+        ],
+        "correctAnswer": "Miss Johnson"
+      },
+      {
+        "question": "What does Sarah think about the classroom?",
+        "options": [
+          "It is too small",
+          "It is boring",
+          "She will like it",
+          "It is scary"
+        ],
+        "correctAnswer": "She will like it"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Magic Garden",
+    "level": "متوسط",
+    "timeLimit": 7,
+    "quizTimeLimit": 4,
+    "wordCount": 200,
+    "content": "Once upon a time, there was a beautiful garden hidden behind an old stone wall. The garden belonged to a kind old woman named Mrs. Thompson. She had been taking care of this garden for over fifty years. The garden was famous throughout the village because of its magical flowers that bloomed in every season. In spring, the garden was filled with colorful tulips and daffodils. In summer, roses of every color covered the garden like a rainbow. In autumn, the garden glowed with golden sunflowers and orange marigolds. Even in winter, when snow covered the ground, the garden had beautiful white camellias that seemed to shine like stars. Mrs. Thompson believed that the garden was magical because it brought happiness to everyone who visited it. Children from the village would often come to play among the flowers, and their laughter would make the garden even more beautiful. The old woman would sit on her wooden bench and watch the children play, feeling grateful for the joy her garden brought to others.",
+    "questions": [
+      {
+        "question": "How long has Mrs. Thompson been taking care of the garden?",
+        "options": [
+          "Twenty years",
+          "Thirty years",
+          "Over fifty years",
+          "Over sixty years"
+        ],
+        "correctAnswer": "Over fifty years"
+      },
+      {
+        "question": "What made the garden famous?",
+        "options": [
+          "Its size",
+          "Its magical flowers",
+          "Its location",
+          "Its owner"
+        ],
+        "correctAnswer": "Its magical flowers"
+      },
+      {
+        "question": "What flowers bloom in the garden during spring?",
+        "options": [
+          "Roses and sunflowers",
+          "Tulips and daffodils",
+          "Camellias and marigolds",
+          "Roses and tulips"
+        ],
+        "correctAnswer": "Tulips and daffodils"
+      },
+      {
+        "question": "What happens to the garden in winter?",
+        "options": [
+          "It becomes empty",
+          "It has white camellias",
+          "It closes to visitors",
+          "It loses all its flowers"
+        ],
+        "correctAnswer": "It has white camellias"
+      },
+      {
+        "question": "Why did Mrs. Thompson believe the garden was magical?",
+        "options": [
+          "Because it was very old",
+          "Because it brought happiness to visitors",
+          "Because it had rare flowers",
+          "Because it was hidden"
+        ],
+        "correctAnswer": "Because it brought happiness to visitors"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "The Future of Technology",
+    "level": "متقدم",
+    "timeLimit": 10,
+    "quizTimeLimit": 5,
+    "wordCount": 300,
+    "content": "The rapid advancement of technology in the 21st century has fundamentally transformed the way we live, work, and communicate. Artificial intelligence, once a concept confined to science fiction, has become an integral part of our daily lives. From smartphones that can recognize our voices to self-driving cars that navigate complex traffic patterns, AI is reshaping entire industries. The Internet of Things (IoT) has connected billions of devices worldwide, creating smart homes where appliances communicate with each other to optimize energy usage and enhance convenience. Virtual and augmented reality technologies are revolutionizing education and entertainment, allowing students to explore ancient civilizations or surgeons to practice complex procedures in simulated environments. However, this technological revolution also presents significant challenges. Privacy concerns have escalated as companies collect vast amounts of personal data. The digital divide continues to widen, with some populations having limited access to these technologies. Additionally, automation threatens traditional job markets, requiring workers to adapt and acquire new skills. As we look toward the future, it is crucial to balance technological innovation with ethical considerations and ensure that these advancements benefit all of humanity rather than creating greater inequality.",
+    "questions": [
+      {
+        "question": "What has fundamentally transformed our lives in the 21st century?",
+        "options": [
+          "Economic changes",
+          "Political developments",
+          "Rapid advancement of technology",
+          "Environmental issues"
+        ],
+        "correctAnswer": "Rapid advancement of technology"
+      },
+      {
+        "question": "What was artificial intelligence once considered?",
+        "options": [
+          "A practical tool",
+          "A science fiction concept",
+          "A business strategy",
+          "A government project"
+        ],
+        "correctAnswer": "A science fiction concept"
+      },
+      {
+        "question": "What does IoT stand for?",
+        "options": [
+          "Internet of Things",
+          "International Online Technology",
+          "Integrated Operating Technology",
+          "Internet Operating Tools"
+        ],
+        "correctAnswer": "Internet of Things"
+      },
+      {
+        "question": "How are VR and AR technologies being used in education?",
+        "options": [
+          "To replace teachers",
+          "To reduce costs",
+          "To allow students to explore ancient civilizations",
+          "To eliminate textbooks"
+        ],
+        "correctAnswer": "To allow students to explore ancient civilizations"
+      },
+      {
+        "question": "What is one of the main challenges mentioned in the text?",
+        "options": [
+          "Lack of innovation",
+          "Privacy concerns",
+          "High costs",
+          "Limited applications"
+        ],
+        "correctAnswer": "Privacy concerns"
+      },
+      {
+        "question": "What does the text suggest about the future?",
+        "options": [
+          "Technology will solve all problems",
+          "We need to balance innovation with ethics",
+          "Automation will create more jobs",
+          "The digital divide will disappear"
+        ],
+        "correctAnswer": "We need to balance innovation with ethics"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "The Art of Cooking",
+    "level": "متوسط",
+    "timeLimit": 6,
+    "quizTimeLimit": 3,
+    "wordCount": 180,
+    "content": "Cooking is more than just preparing food; it is an art form that combines creativity, science, and tradition. Every culture around the world has developed its own unique cooking methods and flavor combinations that reflect its history and geography. In Italy, pasta making is considered a sacred tradition passed down through generations. French cuisine emphasizes technique and presentation, turning simple ingredients into elegant masterpieces. Asian cooking often focuses on balance, combining sweet, sour, salty, and spicy flavors in perfect harmony. The process of cooking engages all our senses. The sizzle of onions in a hot pan, the aroma of fresh herbs, the vibrant colors of vegetables, and the satisfying taste of a well-prepared meal all contribute to the experience. Modern cooking has also embraced technology, with precision temperature control and molecular gastronomy pushing the boundaries of what is possible. However, the heart of cooking remains the same: bringing people together around a shared meal, creating memories, and nourishing both body and soul.",
+    "questions": [
+      {
+        "question": "What does the text say cooking combines?",
+        "options": [
+          "Only creativity and science",
+          "Only tradition and technique",
+          "Creativity, science, and tradition",
+          "Only science and tradition"
+        ],
+        "correctAnswer": "Creativity, science, and tradition"
+      },
+      {
+        "question": "What is pasta making considered in Italy?",
+        "options": [
+          "A modern invention",
+          "A sacred tradition",
+          "A simple task",
+          "A business opportunity"
+        ],
+        "correctAnswer": "A sacred tradition"
+      },
+      {
+        "question": "What does French cuisine emphasize?",
+        "options": [
+          "Speed and convenience",
+          "Technique and presentation",
+          "Spice and heat",
+          "Simplicity and tradition"
+        ],
+        "correctAnswer": "Technique and presentation"
+      },
+      {
+        "question": "What does Asian cooking often focus on?",
+        "options": [
+          "Speed",
+          "Balance of flavors",
+          "Large portions",
+          "Simple ingredients"
+        ],
+        "correctAnswer": "Balance of flavors"
+      },
+      {
+        "question": "What does the text say is the heart of cooking?",
+        "options": [
+          "Using expensive ingredients",
+          "Following strict recipes",
+          "Bringing people together",
+          "Creating new techniques"
+        ],
+        "correctAnswer": "Bringing people together"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Climate Change and Our Planet",
+    "level": "متقدم",
+    "timeLimit": 12,
+    "quizTimeLimit": 6,
+    "wordCount": 350,
+    "content": "Climate change represents one of the most pressing challenges of our time, affecting every aspect of life on Earth. The scientific consensus is clear: human activities, particularly the burning of fossil fuels, have significantly increased greenhouse gas concentrations in the atmosphere. This has led to a rise in global average temperatures, resulting in more frequent and intense weather events such as hurricanes, droughts, and heatwaves. The consequences extend far beyond weather patterns. Rising sea levels threaten coastal communities worldwide, while changing precipitation patterns affect agriculture and water supplies. Ecosystems are shifting as species migrate to cooler regions, and some face extinction due to habitat loss. The Arctic ice is melting at an unprecedented rate, not only affecting polar bears and other Arctic wildlife but also contributing to global sea level rise. However, there is still hope. Renewable energy sources like solar and wind power are becoming increasingly cost-effective and widespread. International agreements like the Paris Accord demonstrate global commitment to addressing this crisis. Individual actions, from reducing energy consumption to supporting sustainable practices, can collectively make a significant difference. The key is immediate and sustained action at all levels of society to mitigate the worst effects of climate change and adapt to the changes that are already occurring.",
+    "questions": [
+      {
+        "question": "What is the main cause of climate change according to the text?",
+        "options": [
+          "Natural weather patterns",
+          "Human activities, especially burning fossil fuels",
+          "Solar radiation",
+          "Volcanic activity"
+        ],
+        "correctAnswer": "Human activities, especially burning fossil fuels"
+      },
+      {
+        "question": "What has increased greenhouse gas concentrations led to?",
+        "options": [
+          "Cooler temperatures",
+          "More stable weather",
+          "Rise in global average temperatures",
+          "Increased rainfall everywhere"
+        ],
+        "correctAnswer": "Rise in global average temperatures"
+      },
+      {
+        "question": "What weather events are mentioned as becoming more frequent?",
+        "options": [
+          "Only hurricanes",
+          "Only droughts",
+          "Hurricanes, droughts, and heatwaves",
+          "Only heatwaves"
+        ],
+        "correctAnswer": "Hurricanes, droughts, and heatwaves"
+      },
+      {
+        "question": "What threatens coastal communities?",
+        "options": [
+          "Increased rainfall",
+          "Rising sea levels",
+          "Stronger winds",
+          "Colder temperatures"
+        ],
+        "correctAnswer": "Rising sea levels"
+      },
+      {
+        "question": "What is happening to Arctic ice?",
+        "options": [
+          "It is growing thicker",
+          "It is melting at an unprecedented rate",
+          "It is staying the same",
+          "It is moving south"
+        ],
+        "correctAnswer": "It is melting at an unprecedented rate"
+      },
+      {
+        "question": "What does the text say about renewable energy?",
+        "options": [
+          "It is too expensive",
+          "It is becoming more cost-effective",
+          "It is not effective",
+          "It is only available in some countries"
+        ],
+        "correctAnswer": "It is becoming more cost-effective"
+      }
+    ]
+  }
+]

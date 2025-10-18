@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "english": "Achievement",
+    "arabic": "إنجاز",
+    "meaning": "شيء تم إنجازه بنجاح",
+    "example": "Graduating from university was a great achievement.",
+    "exampleArabic": "التخرج من الجامعة كان إنجازاً عظيماً.",
+    "tip": "تذكر أن Achievement يأتي من الفعل achieve (يحقق)"
+  },
+  {
+    "id": 2,
+    "english": "Beautiful",
+    "arabic": "جميل",
+    "meaning": "ذو جمال، حسن المظهر",
+    "example": "The sunset was beautiful tonight.",
+    "exampleArabic": "كان غروب الشمس جميلاً الليلة.",
+    "tip": "Beautiful = beauty (الجمال) + -ful (صفة)"
+  },
+  {
+    "id": 3,
+    "english": "Challenge",
+    "arabic": "تحدي",
+    "meaning": "مهمة صعبة تتطلب جهداً",
+    "example": "Learning a new language is a challenge.",
+    "exampleArabic": "تعلم لغة جديدة هو تحدٍ.",
+    "tip": "Challenge يمكن أن يكون اسم أو فعل"
+  },
+  {
+    "id": 4,
+    "english": "Discover",
+    "arabic": "يكتشف",
+    "meaning": "يجد شيئاً لأول مرة",
+    "example": "Scientists discovered a new planet.",
+    "exampleArabic": "اكتشف العلماء كوكباً جديداً.",
+    "tip": "Discover = dis- (إزالة) + cover (غطاء)"
+  },
+  {
+    "id": 5,
+    "english": "Education",
+    "arabic": "تعليم",
+    "meaning": "عملية التعلم والتدريس",
+    "example": "Education is important for everyone.",
+    "exampleArabic": "التعليم مهم للجميع.",
+    "tip": "Education يأتي من الفعل educate (يعلم)"
+  },
+  {
+    "id": 6,
+    "english": "Future",
+    "arabic": "مستقبل",
+    "meaning": "الوقت القادم",
+    "example": "I have plans for the future.",
+    "exampleArabic": "لدي خطط للمستقبل.",
+    "tip": "Future مقابل Past (ماضي) و Present (حاضر)"
+  },
+  {
+    "id": 7,
+    "english": "Grateful",
+    "arabic": "ممتن",
+    "meaning": "شاكر، معترف بالجميل",
+    "example": "I am grateful for your help.",
+    "exampleArabic": "أنا ممتن لمساعدتك.",
+    "tip": "Grateful = gratitude (امتنان) + -ful"
+  },
+  {
+    "id": 8,
+    "english": "Happiness",
+    "arabic": "سعادة",
+    "meaning": "شعور بالفرح والرضا",
+    "example": "Happiness comes from within.",
+    "exampleArabic": "السعادة تأتي من الداخل.",
+    "tip": "Happiness = happy (سعيد) + -ness"
+  },
+  {
+    "id": 9,
+    "english": "Important",
+    "arabic": "مهم",
+    "meaning": "ذو أهمية كبيرة",
+    "example": "It's important to study hard.",
+    "exampleArabic": "من المهم الدراسة بجد.",
+    "tip": "Important = importance (الأهمية) + -ant"
+  },
+  {
+    "id": 10,
+    "english": "Journey",
+    "arabic": "رحلة",
+    "meaning": "سفر من مكان إلى آخر",
+    "example": "The journey was long but enjoyable.",
+    "exampleArabic": "كانت الرحلة طويلة لكن ممتعة.",
+    "tip": "Journey يمكن أن تكون حقيقية أو مجازية"
+  },
+  {
+    "id": 11,
+    "english": "Knowledge",
+    "arabic": "معرفة",
+    "meaning": "فهم ومعلومات عن شيء ما",
+    "example": "Knowledge is power.",
+    "exampleArabic": "المعرفة قوة.",
+    "tip": "Knowledge = know (يعرف) + -ledge"
+  },
+  {
+    "id": 12,
+    "english": "Language",
+    "arabic": "لغة",
+    "meaning": "نظام التواصل بالكلمات",
+    "example": "English is a global language.",
+    "exampleArabic": "الإنجليزية لغة عالمية.",
+    "tip": "Language = lingual (لغوي) + -age"
+  },
+  {
+    "id": 13,
+    "english": "Motivation",
+    "arabic": "حافز",
+    "meaning": "الرغبة في القيام بشيء",
+    "example": "She has strong motivation to succeed.",
+    "exampleArabic": "لديها حافز قوي للنجاح.",
+    "tip": "Motivation = motivate (يحفز) + -ion"
+  },
+  {
+    "id": 14,
+    "english": "Opportunity",
+    "arabic": "فرصة",
+    "meaning": "وقت مناسب لفعل شيء",
+    "example": "This is a great opportunity to learn.",
+    "exampleArabic": "هذه فرصة عظيمة للتعلم.",
+    "tip": "Opportunity = opportune (مناسب) + -ity"
+  },
+  {
+    "id": 15,
+    "english": "Practice",
+    "arabic": "ممارسة",
+    "meaning": "تكرار فعل شيء لتحسينه",
+    "example": "Practice makes perfect.",
+    "exampleArabic": "الممارسة تؤدي إلى الكمال.",
+    "tip": "Practice يمكن أن يكون اسم أو فعل"
+  },
+  {
+    "id": 16,
+    "english": "Question",
+    "arabic": "سؤال",
+    "meaning": "طلب للمعلومات",
+    "example": "Do you have any questions?",
+    "exampleArabic": "هل لديك أي أسئلة؟",
+    "tip": "Question = quest (بحث) + -ion"
+  },
+  {
+    "id": 17,
+    "english": "Remember",
+    "arabic": "يتذكر",
+    "meaning": "يحتفظ بمعلومات في الذهن",
+    "example": "I remember my first day at school.",
+    "exampleArabic": "أتذكر أول يوم لي في المدرسة.",
+    "tip": "Remember مقابل forget (ينسى)"
+  },
+  {
+    "id": 18,
+    "english": "Success",
+    "arabic": "نجاح",
+    "meaning": "تحقيق الهدف المطلوب",
+    "example": "Success requires hard work.",
+    "exampleArabic": "النجاح يتطلب عملاً شاقاً.",
+    "tip": "Success = succeed (ينجح) + -ss"
+  },
+  {
+    "id": 19,
+    "english": "Technology",
+    "arabic": "تكنولوجيا",
+    "meaning": "استخدام المعرفة العلمية",
+    "example": "Technology is advancing rapidly.",
+    "exampleArabic": "التكنولوجيا تتقدم بسرعة.",
+    "tip": "Technology = techno- (تقني) + -logy (علم)"
+  },
+  {
+    "id": 20,
+    "english": "Understand",
+    "arabic": "يفهم",
+    "meaning": "يعرف معنى شيء ما",
+    "example": "I understand the lesson now.",
+    "exampleArabic": "أفهم الدرس الآن.",
+    "tip": "Understand = under (تحت) + stand (يقف)"
+  },
+  {
+    "id": 21,
+    "english": "Victory",
+    "arabic": "انتصار",
+    "meaning": "الفوز في معركة أو مسابقة",
+    "example": "The team celebrated their victory.",
+    "exampleArabic": "احتفل الفريق بانتصارهم.",
+    "tip": "Victory = victor (منتصر) + -y"
+  },
+  {
+    "id": 22,
+    "english": "Wonderful",
+    "arabic": "رائع",
+    "meaning": "مثير للإعجاب والدهشة",
+    "example": "The view from the mountain was wonderful.",
+    "exampleArabic": "كان المنظر من الجبل رائعاً.",
+    "tip": "Wonderful = wonder (عجب) + -ful"
+  },
+  {
+    "id": 23,
+    "english": "Experience",
+    "arabic": "تجربة",
+    "meaning": "معرفة مكتسبة من فعل شيء",
+    "example": "Traveling gives you new experiences.",
+    "exampleArabic": "السفر يمنحك تجارب جديدة.",
+    "tip": "Experience = experiment (تجربة) + -ence"
+  },
+  {
+    "id": 24,
+    "english": "Youth",
+    "arabic": "شباب",
+    "meaning": "فترة الشباب في العمر",
+    "example": "Youth is the time to learn and grow.",
+    "exampleArabic": "الشباب هو وقت التعلم والنمو.",
+    "tip": "Youth مقابل age (عمر) و maturity (نضج)"
+  },
+  {
+    "id": 25,
+    "english": "Zeal",
+    "arabic": "حماس",
+    "meaning": "شغف قوي لفعل شيء",
+    "example": "She approached her studies with zeal.",
+    "exampleArabic": "اقتربت من دراستها بحماس.",
+    "tip": "Zeal = zealous (متحمس) + -l"
+  }
+]
