@@ -1,165 +1,226 @@
 [
   {
     "id": 1,
-    "title": "الأزمنة الأساسية - Present Simple",
-    "description": "تعلم كيفية استخدام المضارع البسيط في اللغة الإنجليزية",
+    "title": "Conditional Sentences - الجمل الشرطية",
+    "description": "تعلم الجمل الشرطية المعقدة للطلاب المتقدمين",
     "content": [
       {
-        "heading": "ما هو المضارع البسيط؟",
-        "explanation": "المضارع البسيط يستخدم للتعبير عن العادات، الحقائق العامة، والأنشطة المتكررة.",
+        "heading": "Zero Conditional - الشرطية الصفرية",
+        "explanation": "تستخدم للتعبير عن حقائق عامة ونتائج حتمية.",
         "rules": [
-          "يستخدم مع الفعل الأساسي (base form) للموضوعات المفردة",
-          "يضاف -s أو -es للموضوعات المفردة في الجملة الإيجابية",
-          "يستخدم do/does في الجمل المنفية والاستفهامية"
+          "If + Present Simple, Present Simple",
+          "تستخدم للتعبير عن القوانين العلمية والحقائق",
+          "يمكن عكس ترتيب الجملتين"
         ],
         "examples": [
           {
-            "english": "I play football every day.",
-            "arabic": "ألعب كرة القدم كل يوم."
+            "english": "If you heat water to 100°C, it boils.",
+            "arabic": "إذا سخنت الماء إلى 100 درجة مئوية، يغلي."
           },
           {
-            "english": "She works in a hospital.",
-            "arabic": "هي تعمل في مستشفى."
-          },
-          {
-            "english": "The sun rises in the east.",
-            "arabic": "الشمس تشرق من الشرق."
+            "english": "If I don't study, I fail the exam.",
+            "arabic": "إذا لم أدرس، أرسب في الامتحان."
           }
         ]
       },
       {
-        "heading": "قواعد إضافة -s و -es",
-        "explanation": "عندما يكون الموضوع مفرداً (he, she, it)، نضيف -s أو -es للفعل.",
+        "heading": "First Conditional - الشرطية الأولى",
+        "explanation": "تستخدم للتعبير عن احتمالات حقيقية في المستقبل.",
         "rules": [
-          "أضف -s لمعظم الأفعال: play → plays",
-          "أضف -es للأفعال التي تنتهي بـ s, sh, ch, x, z: watch → watches",
-          "أضف -ies للأفعال التي تنتهي بـ y قبلها حرف ساكن: study → studies"
+          "If + Present Simple, will + base form",
+          "تستخدم للتنبؤات والوعود والتحذيرات",
+          "يمكن استخدام can, may, might بدلاً من will"
         ],
         "examples": [
           {
-            "english": "He watches TV every evening.",
-            "arabic": "هو يشاهد التلفزيون كل مساء."
+            "english": "If it rains tomorrow, we will cancel the picnic.",
+            "arabic": "إذا أمطرت غداً، سنلغي النزهة."
           },
           {
-            "english": "She studies English at university.",
-            "arabic": "هي تدرس الإنجليزية في الجامعة."
+            "english": "If you study hard, you will pass the exam.",
+            "arabic": "إذا درست بجد، ستمر في الامتحان."
+          }
+        ]
+      },
+      {
+        "heading": "Second Conditional - الشرطية الثانية",
+        "explanation": "تستخدم للتعبير عن مواقف غير واقعية أو خيالية في الحاضر أو المستقبل.",
+        "rules": [
+          "If + Past Simple, would + base form",
+          "تستخدم للأحلام والرغبات غير المحققة",
+          "تستخدم للنصائح والاقتراحات المهذبة"
+        ],
+        "examples": [
+          {
+            "english": "If I were rich, I would travel around the world.",
+            "arabic": "لو كنت غنياً، لسافرت حول العالم."
+          },
+          {
+            "english": "If I had more time, I would learn Arabic.",
+            "arabic": "لو كان لدي وقت أكثر، لتعلمت العربية."
+          }
+        ]
+      },
+      {
+        "heading": "Third Conditional - الشرطية الثالثة",
+        "explanation": "تستخدم للتعبير عن مواقف ماضية غير محققة والندم على الأحداث الماضية.",
+        "rules": [
+          "If + Past Perfect, would have + past participle",
+          "تستخدم للتعبير عن الندم والحسرة",
+          "تستخدم لتحليل الأحداث الماضية"
+        ],
+        "examples": [
+          {
+            "english": "If I had studied harder, I would have passed the exam.",
+            "arabic": "لو درست بجد أكثر، لنجحت في الامتحان."
+          },
+          {
+            "english": "If she had left earlier, she wouldn't have missed the train.",
+            "arabic": "لو غادرت أبكر، لما فوتت القطار."
           }
         ]
       }
     ],
     "quiz": [
       {
-        "question": "أي من الجمل التالية صحيحة؟",
+        "question": "أي من الجمل التالية تعبر عن شرطية ثانية؟",
         "options": [
-          "I plays football every day.",
-          "I play football every day.",
-          "I am play football every day.",
-          "I playing football every day."
+          "If it rains, I will stay home.",
+          "If I were you, I would study more.",
+          "If I had studied, I would have passed.",
+          "If water freezes, it becomes ice."
         ],
-        "correctAnswer": "I play football every day."
+        "correctAnswer": "If I were you, I would study more."
       },
       {
-        "question": "كيف نكتب الفعل 'watch' مع 'she'؟",
+        "question": "كيف تكتب الجملة: 'لو كان لدي مال، لاشتريت سيارة'؟",
         "options": [
-          "She watch TV.",
-          "She watches TV.",
-          "She watching TV.",
-          "She is watch TV."
+          "If I have money, I will buy a car.",
+          "If I had money, I would buy a car.",
+          "If I had had money, I would have bought a car.",
+          "If I will have money, I would buy a car."
         ],
-        "correctAnswer": "She watches TV."
+        "correctAnswer": "If I had money, I would buy a car."
       },
       {
-        "question": "أي من الجمل التالية تعبر عن عادة؟",
+        "question": "أي من الجمل التالية تعبر عن ندم على الماضي؟",
         "options": [
-          "I am reading a book now.",
-          "I read books every week.",
-          "I will read a book tomorrow.",
-          "I have read this book."
+          "If I study, I will pass.",
+          "If I studied, I would pass.",
+          "If I had studied, I would have passed.",
+          "If I will study, I would pass."
         ],
-        "correctAnswer": "I read books every week."
+        "correctAnswer": "If I had studied, I would have passed."
       }
     ]
   },
   {
     "id": 2,
-    "title": "الأزمنة الأساسية - Past Simple",
-    "description": "تعلم كيفية استخدام الماضي البسيط للتعبير عن الأحداث الماضية",
+    "title": "Passive Voice - المبني للمجهول",
+    "description": "تعلم كيفية استخدام المبني للمجهول في الجمل المعقدة",
     "content": [
       {
-        "heading": "ما هو الماضي البسيط؟",
-        "explanation": "الماضي البسيط يستخدم للتعبير عن الأحداث التي حدثت وانتهت في الماضي.",
+        "heading": "ما هو المبني للمجهول؟",
+        "explanation": "المبني للمجهول يستخدم عندما نريد التركيز على الفعل بدلاً من الفاعل، أو عندما يكون الفاعل غير معروف.",
         "rules": [
-          "يستخدم مع الفعل الماضي (past form) لجميع الموضوعات",
-          "الأفعال المنتظمة تنتهي بـ -ed",
-          "الأفعال الشاذة لها أشكال ماضية خاصة"
+          "be + past participle",
+          "يستخدم عندما يكون الفاعل غير مهم أو غير معروف",
+          "يستخدم في الكتابة الأكاديمية والعلمية"
         ],
         "examples": [
           {
-            "english": "I played football yesterday.",
-            "arabic": "لعبت كرة القدم أمس."
+            "english": "The book was written by Shakespeare.",
+            "arabic": "الكتاب كُتب بواسطة شكسبير."
           },
           {
-            "english": "She went to school last week.",
-            "arabic": "ذهبت إلى المدرسة الأسبوع الماضي."
+            "english": "The bridge was built in 1990.",
+            "arabic": "الجسر بُني في عام 1990."
           },
           {
-            "english": "We studied English together.",
-            "arabic": "درسنا الإنجليزية معاً."
+            "english": "English is spoken all over the world.",
+            "arabic": "الإنجليزية تُتحدث في جميع أنحاء العالم."
           }
         ]
       },
       {
-        "heading": "الأفعال الشاذة الشائعة",
-        "explanation": "بعض الأفعال لها أشكال ماضية خاصة ولا تتبع قاعدة -ed.",
+        "heading": "المبني للمجهول في الأزمنة المختلفة",
+        "explanation": "يمكن استخدام المبني للمجهول في جميع الأزمنة الإنجليزية.",
         "rules": [
-          "go → went",
-          "see → saw",
-          "come → came",
-          "do → did",
-          "have → had"
+          "Present Simple: am/is/are + past participle",
+          "Past Simple: was/were + past participle",
+          "Present Perfect: have/has been + past participle",
+          "Future Simple: will be + past participle"
         ],
         "examples": [
           {
-            "english": "I went to the cinema last night.",
-            "arabic": "ذهبت إلى السينما الليلة الماضية."
+            "english": "The house is cleaned every day.",
+            "arabic": "المنزل يُنظف كل يوم."
           },
           {
-            "english": "She saw a beautiful sunset.",
-            "arabic": "رأت غروب شمس جميل."
+            "english": "The letter was sent yesterday.",
+            "arabic": "الرسالة أُرسلت أمس."
+          },
+          {
+            "english": "The work has been completed.",
+            "arabic": "العمل اُكتمل."
+          },
+          {
+            "english": "The meeting will be held tomorrow.",
+            "arabic": "الاجتماع سيعقد غداً."
+          }
+        ]
+      },
+      {
+        "heading": "تحويل الجملة من المعلوم إلى المجهول",
+        "explanation": "لتحويل جملة من المعلوم إلى المجهول، نتبع خطوات محددة.",
+        "rules": [
+          "1. حدد الفاعل والمفعول به والفعل",
+          "2. اجعل المفعول به فاعلاً في الجملة الجديدة",
+          "3. استخدم الفعل المناسب مع be + past participle",
+          "4. أضف الفاعل الأصلي مع by (اختياري)"
+        ],
+        "examples": [
+          {
+            "english": "Active: The teacher teaches the students. → Passive: The students are taught by the teacher.",
+            "arabic": "معلوم: المعلم يعلم الطلاب. → مجهول: الطلاب يُعلمون بواسطة المعلم."
+          },
+          {
+            "english": "Active: They built this house. → Passive: This house was built by them.",
+            "arabic": "معلوم: هم بنوا هذا المنزل. → مجهول: هذا المنزل بُني بواسطتهم."
           }
         ]
       }
     ],
     "quiz": [
       {
-        "question": "كيف نكتب 'go' في الماضي؟",
+        "question": "كيف تحول الجملة 'She writes books' إلى المبني للمجهول؟",
         "options": [
-          "goed",
-          "went",
-          "gone",
-          "going"
+          "Books are written by her.",
+          "Books were written by her.",
+          "Books will be written by her.",
+          "Books have been written by her."
         ],
-        "correctAnswer": "went"
+        "correctAnswer": "Books are written by her."
       },
       {
-        "question": "أي من الجمل التالية صحيحة؟",
+        "question": "أي من الجمل التالية في المبني للمجهول؟",
         "options": [
-          "I go to school yesterday.",
-          "I went to school yesterday.",
-          "I am going to school yesterday.",
-          "I will go to school yesterday."
+          "The students read the book.",
+          "The book is read by the students.",
+          "The students are reading the book.",
+          "The students will read the book."
         ],
-        "correctAnswer": "I went to school yesterday."
+        "correctAnswer": "The book is read by the students."
       },
       {
-        "question": "كيف نكتب 'study' في الماضي؟",
+        "question": "كيف تكتب 'The house was built' في المضارع؟",
         "options": [
-          "studied",
-          "studyed",
-          "studing",
-          "studied"
+          "The house is built.",
+          "The house builds.",
+          "The house is building.",
+          "The house will be built."
         ],
-        "correctAnswer": "studied"
+        "correctAnswer": "The house is built."
       }
     ]
   },
