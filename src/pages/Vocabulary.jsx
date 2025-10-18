@@ -95,17 +95,17 @@ const Vocabulary = () => {
 
   return (
     <div className="max-w-6xl mx-auto mobile-optimized">
-      {/* Header */}
+      {/* Header - Mobile optimized */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="text-center compact-section"
       >
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2 arabic-text">تدريب المفردات المتقدم</h1>
-        <p className="text-gray-600 arabic-text">تعلم كلمات متقدمة للطلاب الثانويين وامتحانات البسيخومتري</p>
+        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-1 md:mb-2 arabic-text">تدريب المفردات المتقدم</h1>
+        <p className="text-sm md:text-base text-gray-600 arabic-text">تعلم كلمات متقدمة للطلاب الثانويين وامتحانات البسيخومتري</p>
       </motion.div>
 
-      {/* Compact Stats */}
+      {/* Compact Stats - Mobile optimized */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -114,46 +114,53 @@ const Vocabulary = () => {
       >
         <div className="compact-stat">
           <div className="compact-stat-value">{xp}</div>
-          <div className="compact-stat-label arabic-text">نقاط XP</div>
+          <div className="compact-stat-label arabic-text mobile-hidden md:block">نقاط XP</div>
+          <div className="compact-stat-label arabic-text md:hidden">XP</div>
         </div>
         <div className="compact-stat">
           <div className="compact-stat-value">{streak}</div>
-          <div className="compact-stat-label arabic-text">أيام متتالية</div>
+          <div className="compact-stat-label arabic-text mobile-hidden md:block">أيام متتالية</div>
+          <div className="compact-stat-label arabic-text md:hidden">أيام</div>
         </div>
         <div className="compact-stat">
           <div className="compact-stat-value">{getAccuracy()}%</div>
-          <div className="compact-stat-label arabic-text">دقة الإجابات</div>
+          <div className="compact-stat-label arabic-text mobile-hidden md:block">دقة الإجابات</div>
+          <div className="compact-stat-label arabic-text md:hidden">دقة</div>
         </div>
         <div className="compact-stat">
           <div className="compact-stat-value">{currentWordIndex + 1}/{vocabularyData.length}</div>
-          <div className="compact-stat-label arabic-text">الكلمة الحالية</div>
+          <div className="compact-stat-label arabic-text mobile-hidden md:block">الكلمة الحالية</div>
+          <div className="compact-stat-label arabic-text md:hidden">موضع</div>
         </div>
       </motion.div>
 
-      {/* Compact Study Mode Selector */}
+      {/* Compact Study Mode Selector - Mobile optimized */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
-        className="flex space-x-2 space-x-reverse justify-center compact-section"
+        className="flex space-x-1 md:space-x-2 space-x-reverse justify-center compact-section"
       >
         {[
-          { id: 'flashcards', name: 'البطاقات', icon: BookOpen },
-          { id: 'multipleChoice', name: 'اختيار متعدد', icon: Target }
+          { id: 'flashcards', name: 'البطاقات', mobileName: 'بطاقات', icon: BookOpen },
+          { id: 'multipleChoice', name: 'اختيار متعدد', mobileName: 'اختيار', icon: Target }
         ].map((mode) => {
           const Icon = mode.icon
           return (
             <button
               key={mode.id}
               onClick={() => setStudyMode(mode.id)}
-              className={`compact-nav-item flex items-center space-x-2 space-x-reverse ${
+              className={`compact-nav-item flex items-center space-x-1 md:space-x-2 space-x-reverse ${
                 studyMode === mode.id
                   ? 'bg-gradient-primary text-white shadow-lg'
                   : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
               }`}
             >
-              <Icon className="w-4 h-4" />
-              <span className="arabic-text">{mode.name}</span>
+              <Icon className="w-3 h-3 md:w-4 md:h-4" />
+              <span className="arabic-text text-xs md:text-sm">
+                <span className="md:hidden">{mode.mobileName}</span>
+                <span className="hidden md:inline">{mode.name}</span>
+              </span>
             </button>
           )
         })}
@@ -186,10 +193,10 @@ const Vocabulary = () => {
       >
         {studyMode === 'flashcards' ? (
           <div className="space-y-4">
-            {/* Word Level and Category */}
-            <div className="flex items-center justify-between mb-4">
-              <div className="flex space-x-2 space-x-reverse">
-                <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+            {/* Word Level and Category - Mobile optimized */}
+            <div className="flex items-center justify-between mb-3">
+              <div className="flex space-x-1 md:space-x-2 space-x-reverse">
+                <span className={`px-1 md:px-2 py-0.5 md:py-1 rounded-full text-xs font-medium ${
                   currentWord.level === 'advanced' 
                     ? 'bg-red-100 text-red-800' 
                     : currentWord.level === 'intermediate'
@@ -199,21 +206,21 @@ const Vocabulary = () => {
                   {currentWord.level === 'advanced' ? 'متقدم' : 
                    currentWord.level === 'intermediate' ? 'متوسط' : 'مبتدئ'}
                 </span>
-                <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">
+                <span className="px-1 md:px-2 py-0.5 md:py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">
                   {currentWord.category}
                 </span>
               </div>
               <button
                 onClick={playAudio}
-                className="p-2 bg-blue-100 rounded-full hover:bg-blue-200 transition-colors duration-200"
+                className="p-1.5 md:p-2 bg-blue-100 rounded-full hover:bg-blue-200 transition-colors duration-200"
               >
-                <Volume2 className="w-4 h-4 text-blue-600" />
+                <Volume2 className="w-3 h-3 md:w-4 md:h-4 text-blue-600" />
               </button>
             </div>
 
-            {/* English Word */}
-            <div className="text-center mb-4">
-              <h2 className="compact-vocab-english text-3xl md:text-4xl font-bold mb-2">{currentWord.english}</h2>
+            {/* English Word - Mobile optimized */}
+            <div className="text-center mb-3">
+              <h2 className="compact-vocab-english text-2xl md:text-3xl lg:text-4xl font-bold mb-1 md:mb-2 break-words">{currentWord.english}</h2>
             </div>
 
             {/* Answer Section */}
@@ -226,18 +233,18 @@ const Vocabulary = () => {
                   exit={{ opacity: 0, y: -20 }}
                   className="space-y-4"
                 >
-                  <h3 className="compact-vocab-arabic text-2xl font-bold text-center">{currentWord.arabic}</h3>
-                  <p className="compact-vocab-meaning text-center">{currentWord.meaning}</p>
+                  <h3 className="compact-vocab-arabic text-xl md:text-2xl font-bold text-center break-words">{currentWord.arabic}</h3>
+                  <p className="compact-vocab-meaning text-center break-words">{currentWord.meaning}</p>
                   
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <p className="text-sm text-gray-700 mb-2 arabic-text">مثال:</p>
-                    <p className="compact-grammar-example-english">{currentWord.example}</p>
-                    <p className="compact-grammar-example-arabic mt-2">{currentWord.exampleArabic}</p>
+                  <div className="bg-gray-50 rounded-lg p-3 md:p-4">
+                    <p className="text-xs md:text-sm text-gray-700 mb-2 arabic-text">مثال:</p>
+                    <p className="compact-grammar-example-english text-sm md:text-base break-words">{currentWord.example}</p>
+                    <p className="compact-grammar-example-arabic mt-2 text-sm md:text-base break-words">{currentWord.exampleArabic}</p>
                   </div>
                   
                   {currentWord.tip && (
-                    <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
-                      <p className="text-sm text-yellow-800 arabic-text">
+                    <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-2 md:p-3">
+                      <p className="text-xs md:text-sm text-yellow-800 arabic-text break-words">
                         <strong>نصيحة:</strong> {currentWord.tip}
                       </p>
                     </div>
@@ -256,23 +263,24 @@ const Vocabulary = () => {
               )}
             </AnimatePresence>
 
-            {/* Action Buttons */}
-            <div className="flex items-center justify-center space-x-3 space-x-reverse">
+            {/* Action Buttons - Mobile optimized */}
+            <div className="flex items-center justify-center space-x-2 md:space-x-3 space-x-reverse">
               <button
                 onClick={toggleAnswer}
-                className="px-4 py-2 bg-gradient-primary text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-200 btn-animate text-sm"
+                className="px-3 md:px-4 py-1.5 md:py-2 bg-gradient-primary text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-200 btn-animate text-xs md:text-sm"
               >
-                {showAnswer ? 'إخفاء الإجابة' : 'إظهار الإجابة'}
+                <span className="md:hidden">{showAnswer ? 'إخفاء' : 'إظهار'}</span>
+                <span className="hidden md:inline">{showAnswer ? 'إخفاء الإجابة' : 'إظهار الإجابة'}</span>
               </button>
               <button
                 onClick={toggleSaveWord}
-                className={`p-2 rounded-lg transition-all duration-200 ${
+                className={`p-1.5 md:p-2 rounded-lg transition-all duration-200 ${
                   savedWords.includes(currentWord.id)
                     ? 'bg-red-100 text-red-600'
                     : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
               >
-                <Heart className={`w-4 h-4 ${savedWords.includes(currentWord.id) ? 'fill-current' : ''}`} />
+                <Heart className={`w-3 h-3 md:w-4 md:h-4 ${savedWords.includes(currentWord.id) ? 'fill-current' : ''}`} />
               </button>
             </div>
           </div>
@@ -360,53 +368,55 @@ const Vocabulary = () => {
           </div>
         )}
 
-        {/* Compact Navigation */}
-        <div className="flex items-center justify-between mt-6">
+        {/* Compact Navigation - Mobile optimized */}
+        <div className="flex items-center justify-between mt-4 md:mt-6">
           <button
             onClick={prevWord}
-            className="flex items-center space-x-2 space-x-reverse px-3 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 transition-colors duration-200 text-sm"
+            className="flex items-center space-x-1 md:space-x-2 space-x-reverse px-2 md:px-3 py-1.5 md:py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 transition-colors duration-200 text-xs md:text-sm"
           >
-            <ChevronRight className="w-4 h-4" />
-            <span className="arabic-text">السابق</span>
+            <ChevronRight className="w-3 h-3 md:w-4 md:h-4" />
+            <span className="arabic-text hidden md:inline">السابق</span>
+            <span className="arabic-text md:hidden">←</span>
           </button>
 
-          <div className="flex items-center space-x-2 space-x-reverse">
+          <div className="flex items-center space-x-1 md:space-x-2 space-x-reverse">
             <button
               onClick={resetProgress}
-              className="p-2 text-gray-400 hover:text-gray-600 transition-colors duration-200"
+              className="p-1.5 md:p-2 text-gray-400 hover:text-gray-600 transition-colors duration-200"
               title="إعادة تعيين التقدم"
             >
-              <RotateCcw className="w-4 h-4" />
+              <RotateCcw className="w-3 h-3 md:w-4 md:h-4" />
             </button>
           </div>
 
           <button
             onClick={nextWord}
-            className="flex items-center space-x-2 space-x-reverse px-3 py-2 bg-gradient-primary text-white rounded-lg hover:shadow-lg transition-all duration-200 btn-animate text-sm"
+            className="flex items-center space-x-1 md:space-x-2 space-x-reverse px-2 md:px-3 py-1.5 md:py-2 bg-gradient-primary text-white rounded-lg hover:shadow-lg transition-all duration-200 btn-animate text-xs md:text-sm"
           >
-            <span className="arabic-text">التالي</span>
-            <ChevronLeft className="w-4 h-4" />
+            <span className="arabic-text hidden md:inline">التالي</span>
+            <span className="arabic-text md:hidden">→</span>
+            <ChevronLeft className="w-3 h-3 md:w-4 md:h-4" />
           </button>
         </div>
       </motion.div>
 
-      {/* Compact Saved Words */}
+      {/* Compact Saved Words - Mobile optimized */}
       {savedWords.length > 0 && (
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="compact-card"
         >
-          <h3 className="text-lg font-bold text-gray-800 mb-4 arabic-text">الكلمات المحفوظة ({savedWords.length})</h3>
+          <h3 className="text-base md:text-lg font-bold text-gray-800 mb-3 md:mb-4 arabic-text">الكلمات المحفوظة ({savedWords.length})</h3>
           <div className="compact-grid">
             {savedWords.map((wordId) => {
               const word = vocabularyData.find(w => w.id === wordId)
               return (
-                <div key={wordId} className="bg-gray-50 rounded-lg p-3">
+                <div key={wordId} className="bg-gray-50 rounded-lg p-2 md:p-3">
                   <div className="flex items-center justify-between">
-                    <div className="flex-1">
-                      <p className="font-semibold compact-vocab-english text-sm">{word.english}</p>
-                      <p className="text-sm text-gray-600 compact-vocab-arabic">{word.arabic}</p>
+                    <div className="flex-1 min-w-0">
+                      <p className="font-semibold compact-vocab-english text-xs md:text-sm break-words">{word.english}</p>
+                      <p className="text-xs md:text-sm text-gray-600 compact-vocab-arabic break-words">{word.arabic}</p>
                       <div className="flex space-x-1 space-x-reverse mt-1">
                         <span className={`px-1 py-0.5 rounded text-xs ${
                           word.level === 'advanced' 
@@ -422,9 +432,9 @@ const Vocabulary = () => {
                     </div>
                     <button
                       onClick={() => setSavedWords(savedWords.filter(id => id !== wordId))}
-                      className="text-red-400 hover:text-red-600 p-1"
+                      className="text-red-400 hover:text-red-600 p-1 flex-shrink-0"
                     >
-                      <XCircle className="w-4 h-4" />
+                      <XCircle className="w-3 h-3 md:w-4 md:h-4" />
                     </button>
                   </div>
                 </div>

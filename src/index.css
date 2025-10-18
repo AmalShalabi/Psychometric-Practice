@@ -292,31 +292,160 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
-/* Responsive compact design */
+/* Mobile-first responsive design - eliminate horizontal scroll */
 @media (max-width: 640px) {
+  /* Prevent horizontal overflow */
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Ultra-compact cards */
   .compact-card {
     padding: 0.5rem;
     margin: 0.25rem 0;
+    max-width: 100%;
+    word-wrap: break-word;
   }
   
   .compact-section {
-    padding: 0.75rem;
+    padding: 0.5rem;
     margin: 0.25rem 0;
+    max-width: 100%;
   }
   
   .compact-grid {
     gap: 0.5rem;
     grid-template-columns: 1fr;
+    max-width: 100%;
   }
   
+  /* Compact text sizes */
   .text-sm-mobile {
-    font-size: 0.875rem;
-    line-height: 1.4;
+    font-size: 0.8rem;
+    line-height: 1.3;
   }
   
   .text-xs-mobile {
-    font-size: 0.75rem;
-    line-height: 1.3;
+    font-size: 0.7rem;
+    line-height: 1.2;
+  }
+  
+  /* Mobile vocabulary cards */
+  .compact-vocab-card {
+    padding: 0.75rem;
+    margin: 0.25rem 0;
+    max-width: 100%;
+  }
+  
+  .compact-vocab-english {
+    font-size: 1.1rem;
+    word-break: break-word;
+  }
+  
+  .compact-vocab-arabic {
+    font-size: 1rem;
+    word-break: break-word;
+  }
+  
+  .compact-vocab-meaning {
+    font-size: 0.8rem;
+    word-break: break-word;
+  }
+  
+  /* Mobile stats grid */
+  .compact-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .compact-stat {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .compact-stat-value {
+    font-size: 1.2rem;
+  }
+  
+  .compact-stat-label {
+    font-size: 0.7rem;
+  }
+  
+  /* Mobile navigation */
+  .compact-nav {
+    padding: 0.5rem;
+    gap: 0.25rem;
+  }
+  
+  .compact-nav-item {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    min-width: auto;
+    flex: 1;
+  }
+  
+  /* Mobile buttons */
+  .btn-animate {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    min-width: auto;
+  }
+  
+  /* Mobile reading */
+  .compact-reading {
+    padding: 0.75rem;
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .compact-reading-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Mobile quiz options */
+  .compact-quiz-option {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    margin: 0.25rem 0;
+  }
+  
+  /* Mobile progress bars */
+  .compact-progress {
+    height: 0.5rem;
+    margin: 0.25rem 0;
+  }
+  
+  /* Ensure no horizontal scroll */
+  .container {
+    max-width: 100vw;
+    padding: 0 0.5rem;
+  }
+  
+  /* Mobile-specific utilities */
+  .mobile-hidden {
+    display: none;
+  }
+  
+  .mobile-full-width {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .mobile-text-center {
+    text-align: center;
+  }
+  
+  .mobile-stack {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 
