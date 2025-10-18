@@ -329,4 +329,169 @@
     "level": "advanced",
     "category": "academic"
   },
+  {
+    "id": 31,
+    "english": "Ambiguous",
+    "arabic": "غامض، ملتبس",
+    "meaning": "ذو أكثر من معنى أو تفسير",
+    "example": "His answer was ambiguous and confusing.",
+    "exampleArabic": "كانت إجابته غامضة ومربكة.",
+    "tip": "Ambi = اثنان + guous (اتجاه) → ذو اتجاهين",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 32,
+    "english": "Benevolent",
+    "arabic": "خيّر، طيب",
+    "meaning": "يميل إلى فعل الخير، كريم",
+    "example": "She is known for her benevolent nature.",
+    "exampleArabic": "هي معروفة بطبيعتها الخيّرة.",
+    "tip": "Bene = خير + volent (يريد) → يريد الخير",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 33,
+    "english": "Candid",
+    "arabic": "صريح، صادق",
+    "meaning": "يتحدث بصدق دون تزييف",
+    "example": "He gave a candid interview about his mistakes.",
+    "exampleArabic": "أجرى مقابلة صريحة حول أخطائه.",
+    "tip": "Candid = sincere and open",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 34,
+    "english": "Concur",
+    "arabic": "يتفق، يوافق",
+    "meaning": "يتفق مع شخص أو فكرة",
+    "example": "Experts concur that climate change is real.",
+    "exampleArabic": "يتفق الخبراء على أن تغير المناخ حقيقة.",
+    "tip": "Con = مع + cur (يجري) → يجري معًا",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 35,
+    "english": "Diligent",
+    "arabic": "مجتهد، مثابر",
+    "meaning": "يعمل بجد واهتمام بالتفاصيل",
+    "example": "She is a diligent student who always finishes her work on time.",
+    "exampleArabic": "هي طالبة مجتهدة تنهي أعمالها دائمًا في الوقت المحدد.",
+    "tip": "Diligent = hard-working and careful",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 36,
+    "english": "Eloquent",
+    "arabic": "فصيح، بليغ",
+    "meaning": "يتحدث أو يكتب بطريقة مؤثرة وواضحة",
+    "example": "The leader gave an eloquent speech about freedom.",
+    "exampleArabic": "ألقى الزعيم خطابًا بليغًا عن الحرية.",
+    "tip": "Eloquent = speak well (from 'loqui' = speak)",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 37,
+    "english": "Frivolous",
+    "arabic": "تافه، غير جاد",
+    "meaning": "يفتقر إلى الجدية أو الأهمية",
+    "example": "They wasted money on frivolous purchases.",
+    "exampleArabic": "أنفقوا المال على مشتريات تافهة.",
+    "tip": "Frivolous = not serious, from Latin 'frivolus' (worthless)",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 38,
+    "english": "Imminent",
+    "arabic": "وشيك، قريب الحدوث",
+    "meaning": "شيء سيحدث قريبًا جدًا",
+    "example": "Dark clouds indicated that a storm was imminent.",
+    "exampleArabic": "الغيوم الداكنة أشارت إلى أن العاصفة وشيكة.",
+    "tip": "Imminent = coming soon",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 39,
+    "english": "Incessant",
+    "arabic": "متواصل، مستمر بلا توقف",
+    "meaning": "يستمر دون انقطاع",
+    "example": "The incessant noise made it hard to concentrate.",
+    "exampleArabic": "الضجيج المستمر جعل من الصعب التركيز.",
+    "tip": "In- (بدون) + cess (توقف) → بدون توقف",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 40,
+    "english": "Meticulous",
+    "arabic": "دقيق جدًا، شديد الاهتمام بالتفاصيل",
+    "meaning": "يهتم بكل التفاصيل الصغيرة بدقة",
+    "example": "She is meticulous about her work.",
+    "exampleArabic": "هي دقيقة جدًا في عملها.",
+    "tip": "Meticulous = careful + detailed",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 41,
+    "english": "Oblivious",
+    "arabic": "غافل، غير مدرك",
+    "meaning": "غير منتبه أو غير مدرك لما يحدث حوله",
+    "example": "He was oblivious to the danger around him.",
+    "exampleArabic": "كان غافلًا عن الخطر المحيط به.",
+    "tip": "Oblivious = unaware",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 42,
+    "english": "Pragmatic",
+    "arabic": "عملي، واقعي",
+    "meaning": "يتعامل مع الأمور بواقعية بعيدًا عن النظريات",
+    "example": "She takes a pragmatic approach to solving problems.",
+    "exampleArabic": "تتبنى أسلوبًا عمليًا في حل المشكلات.",
+    "tip": "Pragmatic = focused on practical results",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 43,
+    "english": "Resilient",
+    "arabic": "مرن، قوي التحمل",
+    "meaning": "يستطيع التعافي بسرعة من الصعوبات",
+    "example": "Children are often more resilient than adults.",
+    "exampleArabic": "الأطفال غالبًا أكثر مرونة من البالغين.",
+    "tip": "Resilient = bounce back",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 44,
+    "english": "Scrutinize",
+    "arabic": "يدقق، يفحص بعناية",
+    "meaning": "يفحص شيئًا بدقة شديدة",
+    "example": "The detective scrutinized the crime scene.",
+    "exampleArabic": "فحص المحقق مسرح الجريمة بدقة.",
+    "tip": "Scrutinize = examine closely",
+    "level": "advanced",
+    "category": "academic"
+  },
+  {
+    "id": 45,
+    "english": "Tenacious",
+    "arabic": "عنيد، مثابر",
+    "meaning": "لا يستسلم بسهولة، متمسك بهدفه",
+    "example": "Her tenacious spirit helped her succeed.",
+    "exampleArabic": "روحها المثابرة ساعدتها على النجاح.",
+    "tip": "Tenacious = hold tightly (from 'tenere' = to hold)",
+    "level": "advanced",
+    "category": "academic"
+  }
 ]
